@@ -1,0 +1,58 @@
+/* JSRespresso CSS V1.0 by GPSoft 2020 
+     Changelog : 
+*/
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  border-style: solid;
+  width: 500px;
+  background-color: #BFBF00;
+  border-radius: 25px;
+  border-width: 3px;
+}
+
+body {
+  font-size: 30pt;
+  font-family: Arial;
+  font-weight: bold;
+  background-color: #FFFFD0; 
+}
+
+h3 {
+  font-size: 10pt;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: left;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px 0 20px 30%;
+}
+
+.tailer {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 0 0 87%;
+}
+
+.grid-regexp {
+  display: grid;
+  grid-template-columns: 28% 72%;
+  padding: 10px 0 50px 30px;
+  grid-row-gap: 30px;
+}
+
+#regexpr {
+	width: 800px;
+	height: 50px;
+  font-size: 30pt;
+}
+
+.test {
+	width: 500px;
+	height: 50px;
+  font-size: 30pt;
+}
