@@ -1,12 +1,13 @@
-/* JSRespresso CSS V1.0 by GPSoft 2020 
+/* JSRespresso CSS V1.1 by GPSoft 2020 
      Changelog : 
 */
 
 h1 {
-  font-size: 70px;
+  font-size: 100%;
   text-align: center;
   border-style: solid;
-  width: 500px;
+  width: 50%;
+  height: 50%;
   background-color: #BFBF00;
   border-radius: 25px;
   border-width: 3px;
@@ -29,30 +30,30 @@ h3 {
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 10px 0 20px 30%;
+  padding: 1% 0 2% 30%;
 }
 
 .tailer {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 0 0 0 87%;
+  padding: 0 0 0 80%;
 }
 
 .grid-regexp {
   display: grid;
   grid-template-columns: 28% 72%;
-  padding: 10px 0 50px 30px;
-  grid-row-gap: 30px;
+  padding: 1% 0 3% 5%;
+  grid-row-gap: 8%;
 }
 
 #regexpr {
-	width: 800px;
-	height: 50px;
-  font-size: 30pt;
+	width: 70%;
+	height: 50%;
+  font-size: 100%;
 }
 
-.test {
-	width: 500px;
-	height: 50px;
-  font-size: 30pt;
+#test1, #test2, #test3, #test4 {
+	width: 60%;
+	height: 6%;
+  font-size: 100%;
 }
